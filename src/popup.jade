@@ -1,0 +1,26 @@
+doctype html
+html(lang="ja")
+   head
+      meta(charset="utf-8")
+      meta(name="twitter:widgets:csp" content="on")
+      link(rel="stylesheet" href="style.css")
+      script(type="text/javascript" src="base64.js")
+      script(type="text/javascript" src="jszip.js")
+      script(type="text/javascript" src="popup.js")
+   body
+      button#select_all_button select all
+      button#cancel_all_button cancel all
+      select(id="format",name="format").
+          <option value='default' selected>default</option>
+          <option value='zip'>zip</option>
+      button#save_button save
+      hr
+      br
+      div#tabs.
+          <a href="#tab1" id="tab1">現在のページの画像</a>
+          <a href="#tab2" id="tab2">お気に入り</a>
+          
+      div#main
+         div#image_data
+      div#fav
+         div#fav_data

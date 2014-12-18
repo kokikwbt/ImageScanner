@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="twitter:widgets:csp" content="on">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="base64.js"></script>
+    <script type="text/javascript" src="jszip.js"></script>
+    <script type="text/javascript" src="popup.js"></script>
+  </head>
+  <body>
+    <button id="select_all_button">select all</button>
+    <button id="cancel_all_button">cancel all</button>
+    <select id="format" name="format">
+      <option value='default' selected>default</option>
+      <option value='zip'>zip</option>
+    </select>
+    <button id="save_button">save</button>
+    <hr><br>
+    <div id="tabs">
+      <a href="#tab1" id="tab1">現在のページの画像</a>
+      <a href="#tab2" id="tab2">お気に入り</a>
+      
+    </div>
+    <div id="main">
+      <div id="image_data"></div>
+    </div>
+    <div id="fav">
+      <div id="fav_data"></div>
+    </div>
+  </body>
+</html>
