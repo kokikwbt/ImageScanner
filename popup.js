@@ -68,8 +68,8 @@
       tweetButton.innerHTML = "Tweet";
       script = document.createElement("script");
       script.type = "text/javascript";
-      script.src = "./tweet.js";
-      script.src = "./widgets.js";
+      script.src = "./lib/tweet.js";
+      script.src = "./lib/widgets.js";
       tweetButton.appendChild(script);
       favButton = document.createElement("img");
       favButton.src = "./image/unfav.png";
@@ -171,8 +171,8 @@
       tweetButton.innerHTML = "Tweet";
       script = document.createElement("script");
       script.type = "text/javascript";
-      script.src = "./tweet.js";
-      script.src = "./widgets.js";
+      script.src = "./lib/tweet.js";
+      script.src = "./lib/widgets.js";
       tweetButton.appendChild(script);
       hrMid = document.createElement("hr");
       hrMid.id = "hr_mid";
